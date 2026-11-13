@@ -1,0 +1,72 @@
+body{
+  margin:0;
+  padding:0;
+  background-color:rgb(22, 22, 47);
+}
+
+
+main{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
+  font-family:arial;
+}
+
+
+h1{
+  color:white;
+}
+
+.juntos{
+  background-color:white;
+  padding:10px 70px;
+  border-radius:20px;
+  box-shadow: 0px 6px 6px rgb(0, 57, 213); 
+}
+
+.pre{
+  padding-bottom:22px;
+}
+
+#text-input,#check-btn{
+  margin-bottom:22px;
+}
+
+#text-input{
+  border-left:none;
+  border-right:none;
+  border-top:none;
+  border-bottom:3px solid rgb(119, 60, 185);
+  margin-left:17px;
+  
+}
+
+#check-btn{
+  background-color:rgb(119, 60, 185);
+  color:white;
+  border:none;
+  border-radius:20px;
+  padding:10px 20px;
+}
+
+#check-btn:hover{
+cursor:pointer;
+}
+
+#pista{
+  color:white;
+  background-color:rgb(33, 115, 33);
+  margin:0 100px;
+  padding:20px;
+  border-radius:20px;
+  text-align:justify;
+  font-size:20px;
+}
+
+
+#result{
+  color:white;
+  font-size:20px;
+}
